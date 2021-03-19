@@ -70,6 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-###Simón Rendón Arango
-###201820112
-###s.rendona@uniandes.edu.co
+### Simón Rendón Arango
+### 201820112
+### s.rendona@uniandes.edu.co

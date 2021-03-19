@@ -1,9 +1,6 @@
 name: Pipeline PR React
 
 on:
-  push:
-    branches:
-      - master
   pull_request:
     branches: [master]
     types: [opened, synchronize]
@@ -22,10 +19,5 @@ jobs:
         run: npm run eslint
       - name: Build
         run: npm run build
-      - uses: akhileshns/heroku-deploy@v3.12.12
-        with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "pokemon-srendona" 
-          heroku_email: "s.rendona@uniandes.edu.co"
 
   

@@ -1,4 +1,4 @@
-name: Pipeline React
+name: Pipeline PR React
 
 on:
   push:

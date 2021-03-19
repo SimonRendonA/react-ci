@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize]
 
 jobs:
   simple_deployment_pipeline:
@@ -19,3 +22,5 @@ jobs:
         run: npm run eslint
       - name: Build
         run: npm run build
+
+  
